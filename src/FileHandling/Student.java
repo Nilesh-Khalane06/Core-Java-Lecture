@@ -43,7 +43,7 @@ public class Student{
 				
 			}
 			
-			FileWriter writer=new FileWriter(file, true);
+		FileWriter writer=new FileWriter(file, true);
 			writer.write(id+":"+fname+":"+lname+":"+mNumber+":"+city+System.lineSeparator());
 			writer.close();
 			System.out.println("Student details in file: "+id+" "+fname+" "+lname+" "+mNumber+" "+city);
