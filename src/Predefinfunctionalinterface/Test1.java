@@ -20,6 +20,7 @@ public class Test1 {
 		System.out.println(pc.test("Nilesh"));
 		
 		
+		
 		//check greter than or not 
 		Predicate<Integer> i=x->x>50;
 		System.out.println(i.test(25));
